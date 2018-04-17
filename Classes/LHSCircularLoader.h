@@ -12,10 +12,7 @@
 
 @property (nonatomic, assign) CGFloat progress;
 
-@required
 - (void)revealAnimation;
-
-@optional
 - (void)reset;
 
 @end

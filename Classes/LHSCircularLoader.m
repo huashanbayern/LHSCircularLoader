@@ -12,7 +12,7 @@ static const CGFloat kOriginalCirclePathRadius = 25.0;
 static const CGFloat kLineWidth = 5.0;
 static const NSTimeInterval kAnimationGroupDuration = 1.0;
 
-@interface LHSCircularLoader ()
+@interface LHSCircularLoader () <CAAnimationDelegate>
 
 @property (nonatomic, strong) CAShapeLayer *shapeLayer;
 
