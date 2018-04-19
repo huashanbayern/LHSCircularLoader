@@ -16,8 +16,8 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "LHSCircularLoader"
-  s.version      = "0.0.1"
-  s.summary      = "Display the picture with a circular animation."
+  s.version      = "0.0.2"
+  s.summary      = "Display the picture with the circular progress and animation."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -54,7 +54,7 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author             = { "huashanbayern" => "601439475@qq.com" }
+  s.author             = { "huashan" => "601439475@qq.com" }
   # Or just: s.author    = "lihuashan001"
   # s.authors            = { "lihuashan001" => "lihuashan001@lianjia.com" }
   # s.social_media_url   = "http://twitter.com/lihuashan001"
@@ -81,7 +81,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/huashanbayern/LHSCircularLoader.git", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/huashanbayern/LHSCircularLoader.git", :tag => "0.0.2" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

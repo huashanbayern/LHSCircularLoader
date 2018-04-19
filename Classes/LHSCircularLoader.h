@@ -11,8 +11,12 @@
 @interface LHSCircularLoader : UIView
 
 @property (nonatomic, assign) CGFloat progress;
+@property (nonatomic, assign) CGFloat progressWidth;
+@property (nonatomic, strong) UIColor *progressColor;
+@property (nonatomic, assign) CGFloat revealOriginalRadius;
+@property (nonatomic, assign) NSTimeInterval revealAnimationDuration;
 
-- (void)revealAnimation;
+- (void)reveal:(BOOL)animated;
 - (void)reset;
 
 @end
